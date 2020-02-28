@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2C0CDC2408CCE800609CF8 /* ConfigureVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */; };
 		15F91C802408CC1600004D3F /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F91C7F2408CC1600004D3F /* ImageViewerViewController.swift */; };
 		3F8E290A2408C6A3003286FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29092408C6A3003286FC /* AppDelegate.swift */; };
 		3F8E290C2408C6A3003286FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E290B2408C6A3003286FC /* SceneDelegate.swift */; };
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15F91C7F2408CC1600004D3F /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureVehicleViewController.swift; sourceTree = "<group>"; };
 		3F8E29062408C6A3003286FC /* Gas-Leakage-Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas-Leakage-Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8E29092408C6A3003286FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8E290B2408C6A3003286FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +108,7 @@
 				3F8E29092408C6A3003286FC /* AppDelegate.swift */,
 				3F8E290B2408C6A3003286FC /* SceneDelegate.swift */,
 				3F8E290D2408C6A3003286FC /* FirstViewController.swift */,
+				3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */,
 				3F8E290F2408C6A3003286FC /* SecondViewController.swift */,
 				3F8E29112408C6A3003286FC /* Main.storyboard */,
 				3F8E29142408C6A6003286FC /* Assets.xcassets */,
@@ -266,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8E29102408C6A3003286FC /* SecondViewController.swift in Sources */,
+				3F2C0CDC2408CCE800609CF8 /* ConfigureVehicleViewController.swift in Sources */,
 				3F8E290E2408C6A3003286FC /* FirstViewController.swift in Sources */,
 				3F8E290A2408C6A3003286FC /* AppDelegate.swift in Sources */,
 				15F91C802408CC1600004D3F /* ImageViewerViewController.swift in Sources */,
