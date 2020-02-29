@@ -7,71 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2C0CDC2408CCE800609CF8 /* ConfigureVehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */; };
-		15F91C802408CC1600004D3F /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F91C7F2408CC1600004D3F /* ImageViewerViewController.swift */; };
-		3F8E290A2408C6A3003286FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29092408C6A3003286FC /* AppDelegate.swift */; };
-		3F8E290C2408C6A3003286FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E290B2408C6A3003286FC /* SceneDelegate.swift */; };
-		3F8E290E2408C6A3003286FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E290D2408C6A3003286FC /* FirstViewController.swift */; };
-		3F8E29102408C6A3003286FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E290F2408C6A3003286FC /* SecondViewController.swift */; };
-		3F8E29132408C6A3003286FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E29112408C6A3003286FC /* Main.storyboard */; };
-		3F8E29152408C6A6003286FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E29142408C6A6003286FC /* Assets.xcassets */; };
-		3F8E29182408C6A6003286FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E29162408C6A6003286FC /* LaunchScreen.storyboard */; };
-		3F8E29232408C6A6003286FC /* Gas_Leakage_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29222408C6A6003286FC /* Gas_Leakage_DetectorTests.swift */; };
-		3F8E292E2408C6A6003286FC /* Gas_Leakage_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E292D2408C6A6003286FC /* Gas_Leakage_DetectorUITests.swift */; };
+		3F8E29482409C32C003286FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29472409C32C003286FC /* AppDelegate.swift */; };
+		3F8E294A2409C32C003286FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29492409C32C003286FC /* SceneDelegate.swift */; };
+		3F8E294C2409C32C003286FC /* DriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E294B2409C32C003286FC /* DriveViewController.swift */; };
+		3F8E294E2409C32C003286FC /* ViewImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E294D2409C32C003286FC /* ViewImagesViewController.swift */; };
+		3F8E29512409C32C003286FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E294F2409C32C003286FC /* Main.storyboard */; };
+		3F8E29532409C331003286FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E29522409C331003286FC /* Assets.xcassets */; };
+		3F8E29562409C331003286FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8E29542409C331003286FC /* LaunchScreen.storyboard */; };
+		3F8E29612409C331003286FC /* Gas_Leakage_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29602409C331003286FC /* Gas_Leakage_DetectorTests.swift */; };
+		3F8E296C2409C331003286FC /* Gas_Leakage_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E296B2409C331003286FC /* Gas_Leakage_DetectorUITests.swift */; };
+		3F8E297A2409C441003286FC /* ConfigureCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29792409C441003286FC /* ConfigureCarViewController.swift */; };
+		3F8E297C2409D23C003286FC /* GasMetricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E297B2409D23C003286FC /* GasMetricsViewController.swift */; };
+		3F8E297E2409D9E3003286FC /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E297D2409D9E3003286FC /* RoundButton.swift */; };
+		3F8E29822409EB7D003286FC /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E29812409EB7D003286FC /* MyImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F8E291F2408C6A6003286FC /* PBXContainerItemProxy */ = {
+		3F8E295D2409C331003286FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F8E28FE2408C6A3003286FC /* Project object */;
+			containerPortal = 3F8E293C2409C32C003286FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F8E29052408C6A3003286FC;
+			remoteGlobalIDString = 3F8E29432409C32C003286FC;
 			remoteInfo = "Gas-Leakage-Detector";
 		};
-		3F8E292A2408C6A6003286FC /* PBXContainerItemProxy */ = {
+		3F8E29682409C331003286FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F8E28FE2408C6A3003286FC /* Project object */;
+			containerPortal = 3F8E293C2409C32C003286FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F8E29052408C6A3003286FC;
+			remoteGlobalIDString = 3F8E29432409C32C003286FC;
 			remoteInfo = "Gas-Leakage-Detector";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureVehicleViewController.swift; sourceTree = "<group>"; };
-		3F8E29062408C6A3003286FC /* Gas-Leakage-Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas-Leakage-Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8E29092408C6A3003286FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F8E290B2408C6A3003286FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F8E290D2408C6A3003286FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3F8E290F2408C6A3003286FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3F8E29122408C6A3003286FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F8E29142408C6A6003286FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F8E29172408C6A6003286FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F8E29192408C6A6003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F8E291E2408C6A6003286FC /* Gas-Leakage-DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas-Leakage-DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8E29222408C6A6003286FC /* Gas_Leakage_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_Leakage_DetectorTests.swift; sourceTree = "<group>"; };
-		3F8E29242408C6A6003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F8E29292408C6A6003286FC /* Gas-Leakage-DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas-Leakage-DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F8E292D2408C6A6003286FC /* Gas_Leakage_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_Leakage_DetectorUITests.swift; sourceTree = "<group>"; };
-		3F8E292F2408C6A6003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8E29442409C32C003286FC /* Gas-Leakage-Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas-Leakage-Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E29472409C32C003286FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8E29492409C32C003286FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F8E294B2409C32C003286FC /* DriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveViewController.swift; sourceTree = "<group>"; };
+		3F8E294D2409C32C003286FC /* ViewImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImagesViewController.swift; sourceTree = "<group>"; };
+		3F8E29502409C32C003286FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8E29522409C331003286FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8E29552409C331003286FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8E29572409C331003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8E295C2409C331003286FC /* Gas-Leakage-DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas-Leakage-DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E29602409C331003286FC /* Gas_Leakage_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_Leakage_DetectorTests.swift; sourceTree = "<group>"; };
+		3F8E29622409C331003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8E29672409C331003286FC /* Gas-Leakage-DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gas-Leakage-DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8E296B2409C331003286FC /* Gas_Leakage_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gas_Leakage_DetectorUITests.swift; sourceTree = "<group>"; };
+		3F8E296D2409C331003286FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8E29792409C441003286FC /* ConfigureCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureCarViewController.swift; sourceTree = "<group>"; };
+		3F8E297B2409D23C003286FC /* GasMetricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasMetricsViewController.swift; sourceTree = "<group>"; };
+		3F8E297D2409D9E3003286FC /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		3F8E29812409EB7D003286FC /* MyImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F8E29032408C6A3003286FC /* Frameworks */ = {
+		3F8E29412409C32C003286FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E291B2408C6A6003286FC /* Frameworks */ = {
+		3F8E29592409C331003286FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E29262408C6A6003286FC /* Frameworks */ = {
+		3F8E29642409C331003286FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,57 +86,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F8E28FD2408C6A3003286FC = {
+		3F8E293B2409C32C003286FC = {
 			isa = PBXGroup;
 			children = (
-				3F8E29082408C6A3003286FC /* Gas-Leakage-Detector */,
-				3F8E29212408C6A6003286FC /* Gas-Leakage-DetectorTests */,
-				3F8E292C2408C6A6003286FC /* Gas-Leakage-DetectorUITests */,
-				3F8E29072408C6A3003286FC /* Products */,
+				3F8E29462409C32C003286FC /* Gas-Leakage-Detector */,
+				3F8E295F2409C331003286FC /* Gas-Leakage-DetectorTests */,
+				3F8E296A2409C331003286FC /* Gas-Leakage-DetectorUITests */,
+				3F8E29452409C32C003286FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F8E29072408C6A3003286FC /* Products */ = {
+		3F8E29452409C32C003286FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F8E29062408C6A3003286FC /* Gas-Leakage-Detector.app */,
-				3F8E291E2408C6A6003286FC /* Gas-Leakage-DetectorTests.xctest */,
-				3F8E29292408C6A6003286FC /* Gas-Leakage-DetectorUITests.xctest */,
+				3F8E29442409C32C003286FC /* Gas-Leakage-Detector.app */,
+				3F8E295C2409C331003286FC /* Gas-Leakage-DetectorTests.xctest */,
+				3F8E29672409C331003286FC /* Gas-Leakage-DetectorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F8E29082408C6A3003286FC /* Gas-Leakage-Detector */ = {
+		3F8E29462409C32C003286FC /* Gas-Leakage-Detector */ = {
 			isa = PBXGroup;
 			children = (
-				15F91C7F2408CC1600004D3F /* ImageViewerViewController.swift */,
-				3F8E29092408C6A3003286FC /* AppDelegate.swift */,
-				3F8E290B2408C6A3003286FC /* SceneDelegate.swift */,
-				3F8E290D2408C6A3003286FC /* FirstViewController.swift */,
-				3F2C0CDB2408CCE800609CF8 /* ConfigureVehicleViewController.swift */,
-				3F8E290F2408C6A3003286FC /* SecondViewController.swift */,
-				3F8E29112408C6A3003286FC /* Main.storyboard */,
-				3F8E29142408C6A6003286FC /* Assets.xcassets */,
-				3F8E29162408C6A6003286FC /* LaunchScreen.storyboard */,
-				3F8E29192408C6A6003286FC /* Info.plist */,
+				3F8E29472409C32C003286FC /* AppDelegate.swift */,
+				3F8E29492409C32C003286FC /* SceneDelegate.swift */,
+				3F8E294B2409C32C003286FC /* DriveViewController.swift */,
+				3F8E294D2409C32C003286FC /* ViewImagesViewController.swift */,
+				3F8E294F2409C32C003286FC /* Main.storyboard */,
+				3F8E29792409C441003286FC /* ConfigureCarViewController.swift */,
+				3F8E29522409C331003286FC /* Assets.xcassets */,
+				3F8E29542409C331003286FC /* LaunchScreen.storyboard */,
+				3F8E29572409C331003286FC /* Info.plist */,
+				3F8E29812409EB7D003286FC /* MyImageCell.swift */,
+				3F8E297B2409D23C003286FC /* GasMetricsViewController.swift */,
+				3F8E297D2409D9E3003286FC /* RoundButton.swift */,
 			);
 			path = "Gas-Leakage-Detector";
 			sourceTree = "<group>";
 		};
-		3F8E29212408C6A6003286FC /* Gas-Leakage-DetectorTests */ = {
+		3F8E295F2409C331003286FC /* Gas-Leakage-DetectorTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F8E29222408C6A6003286FC /* Gas_Leakage_DetectorTests.swift */,
-				3F8E29242408C6A6003286FC /* Info.plist */,
+				3F8E29602409C331003286FC /* Gas_Leakage_DetectorTests.swift */,
+				3F8E29622409C331003286FC /* Info.plist */,
 			);
 			path = "Gas-Leakage-DetectorTests";
 			sourceTree = "<group>";
 		};
-		3F8E292C2408C6A6003286FC /* Gas-Leakage-DetectorUITests */ = {
+		3F8E296A2409C331003286FC /* Gas-Leakage-DetectorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3F8E292D2408C6A6003286FC /* Gas_Leakage_DetectorUITests.swift */,
-				3F8E292F2408C6A6003286FC /* Info.plist */,
+				3F8E296B2409C331003286FC /* Gas_Leakage_DetectorUITests.swift */,
+				3F8E296D2409C331003286FC /* Info.plist */,
 			);
 			path = "Gas-Leakage-DetectorUITests";
 			sourceTree = "<group>";
@@ -139,13 +146,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F8E29052408C6A3003286FC /* Gas-Leakage-Detector */ = {
+		3F8E29432409C32C003286FC /* Gas-Leakage-Detector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8E29322408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-Detector" */;
+			buildConfigurationList = 3F8E29702409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-Detector" */;
 			buildPhases = (
-				3F8E29022408C6A3003286FC /* Sources */,
-				3F8E29032408C6A3003286FC /* Frameworks */,
-				3F8E29042408C6A3003286FC /* Resources */,
+				3F8E29402409C32C003286FC /* Sources */,
+				3F8E29412409C32C003286FC /* Frameworks */,
+				3F8E29422409C32C003286FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,69 +160,69 @@
 			);
 			name = "Gas-Leakage-Detector";
 			productName = "Gas-Leakage-Detector";
-			productReference = 3F8E29062408C6A3003286FC /* Gas-Leakage-Detector.app */;
+			productReference = 3F8E29442409C32C003286FC /* Gas-Leakage-Detector.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F8E291D2408C6A6003286FC /* Gas-Leakage-DetectorTests */ = {
+		3F8E295B2409C331003286FC /* Gas-Leakage-DetectorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8E29352408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorTests" */;
+			buildConfigurationList = 3F8E29732409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorTests" */;
 			buildPhases = (
-				3F8E291A2408C6A6003286FC /* Sources */,
-				3F8E291B2408C6A6003286FC /* Frameworks */,
-				3F8E291C2408C6A6003286FC /* Resources */,
+				3F8E29582409C331003286FC /* Sources */,
+				3F8E29592409C331003286FC /* Frameworks */,
+				3F8E295A2409C331003286FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F8E29202408C6A6003286FC /* PBXTargetDependency */,
+				3F8E295E2409C331003286FC /* PBXTargetDependency */,
 			);
 			name = "Gas-Leakage-DetectorTests";
 			productName = "Gas-Leakage-DetectorTests";
-			productReference = 3F8E291E2408C6A6003286FC /* Gas-Leakage-DetectorTests.xctest */;
+			productReference = 3F8E295C2409C331003286FC /* Gas-Leakage-DetectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F8E29282408C6A6003286FC /* Gas-Leakage-DetectorUITests */ = {
+		3F8E29662409C331003286FC /* Gas-Leakage-DetectorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8E29382408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorUITests" */;
+			buildConfigurationList = 3F8E29762409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorUITests" */;
 			buildPhases = (
-				3F8E29252408C6A6003286FC /* Sources */,
-				3F8E29262408C6A6003286FC /* Frameworks */,
-				3F8E29272408C6A6003286FC /* Resources */,
+				3F8E29632409C331003286FC /* Sources */,
+				3F8E29642409C331003286FC /* Frameworks */,
+				3F8E29652409C331003286FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F8E292B2408C6A6003286FC /* PBXTargetDependency */,
+				3F8E29692409C331003286FC /* PBXTargetDependency */,
 			);
 			name = "Gas-Leakage-DetectorUITests";
 			productName = "Gas-Leakage-DetectorUITests";
-			productReference = 3F8E29292408C6A6003286FC /* Gas-Leakage-DetectorUITests.xctest */;
+			productReference = 3F8E29672409C331003286FC /* Gas-Leakage-DetectorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F8E28FE2408C6A3003286FC /* Project object */ = {
+		3F8E293C2409C32C003286FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Student;
 				TargetAttributes = {
-					3F8E29052408C6A3003286FC = {
+					3F8E29432409C32C003286FC = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					3F8E291D2408C6A6003286FC = {
+					3F8E295B2409C331003286FC = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 3F8E29052408C6A3003286FC;
+						TestTargetID = 3F8E29432409C32C003286FC;
 					};
-					3F8E29282408C6A6003286FC = {
+					3F8E29662409C331003286FC = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 3F8E29052408C6A3003286FC;
+						TestTargetID = 3F8E29432409C32C003286FC;
 					};
 				};
 			};
-			buildConfigurationList = 3F8E29012408C6A3003286FC /* Build configuration list for PBXProject "Gas-Leakage-Detector" */;
+			buildConfigurationList = 3F8E293F2409C32C003286FC /* Build configuration list for PBXProject "Gas-Leakage-Detector" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,37 +230,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F8E28FD2408C6A3003286FC;
-			productRefGroup = 3F8E29072408C6A3003286FC /* Products */;
+			mainGroup = 3F8E293B2409C32C003286FC;
+			productRefGroup = 3F8E29452409C32C003286FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F8E29052408C6A3003286FC /* Gas-Leakage-Detector */,
-				3F8E291D2408C6A6003286FC /* Gas-Leakage-DetectorTests */,
-				3F8E29282408C6A6003286FC /* Gas-Leakage-DetectorUITests */,
+				3F8E29432409C32C003286FC /* Gas-Leakage-Detector */,
+				3F8E295B2409C331003286FC /* Gas-Leakage-DetectorTests */,
+				3F8E29662409C331003286FC /* Gas-Leakage-DetectorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F8E29042408C6A3003286FC /* Resources */ = {
+		3F8E29422409C32C003286FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8E29182408C6A6003286FC /* LaunchScreen.storyboard in Resources */,
-				3F8E29152408C6A6003286FC /* Assets.xcassets in Resources */,
-				3F8E29132408C6A3003286FC /* Main.storyboard in Resources */,
+				3F8E29562409C331003286FC /* LaunchScreen.storyboard in Resources */,
+				3F8E29532409C331003286FC /* Assets.xcassets in Resources */,
+				3F8E29512409C32C003286FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E291C2408C6A6003286FC /* Resources */ = {
+		3F8E295A2409C331003286FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E29272408C6A6003286FC /* Resources */ = {
+		3F8E29652409C331003286FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,63 +270,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F8E29022408C6A3003286FC /* Sources */ = {
+		3F8E29402409C32C003286FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8E29102408C6A3003286FC /* SecondViewController.swift in Sources */,
-				3F2C0CDC2408CCE800609CF8 /* ConfigureVehicleViewController.swift in Sources */,
-				3F8E290E2408C6A3003286FC /* FirstViewController.swift in Sources */,
-				3F8E290A2408C6A3003286FC /* AppDelegate.swift in Sources */,
-				15F91C802408CC1600004D3F /* ImageViewerViewController.swift in Sources */,
-				3F8E290C2408C6A3003286FC /* SceneDelegate.swift in Sources */,
+				3F8E294E2409C32C003286FC /* ViewImagesViewController.swift in Sources */,
+				3F8E297A2409C441003286FC /* ConfigureCarViewController.swift in Sources */,
+				3F8E297E2409D9E3003286FC /* RoundButton.swift in Sources */,
+				3F8E297C2409D23C003286FC /* GasMetricsViewController.swift in Sources */,
+				3F8E294C2409C32C003286FC /* DriveViewController.swift in Sources */,
+				3F8E29822409EB7D003286FC /* MyImageCell.swift in Sources */,
+				3F8E29482409C32C003286FC /* AppDelegate.swift in Sources */,
+				3F8E294A2409C32C003286FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E291A2408C6A6003286FC /* Sources */ = {
+		3F8E29582409C331003286FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8E29232408C6A6003286FC /* Gas_Leakage_DetectorTests.swift in Sources */,
+				3F8E29612409C331003286FC /* Gas_Leakage_DetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F8E29252408C6A6003286FC /* Sources */ = {
+		3F8E29632409C331003286FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8E292E2408C6A6003286FC /* Gas_Leakage_DetectorUITests.swift in Sources */,
+				3F8E296C2409C331003286FC /* Gas_Leakage_DetectorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F8E29202408C6A6003286FC /* PBXTargetDependency */ = {
+		3F8E295E2409C331003286FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F8E29052408C6A3003286FC /* Gas-Leakage-Detector */;
-			targetProxy = 3F8E291F2408C6A6003286FC /* PBXContainerItemProxy */;
+			target = 3F8E29432409C32C003286FC /* Gas-Leakage-Detector */;
+			targetProxy = 3F8E295D2409C331003286FC /* PBXContainerItemProxy */;
 		};
-		3F8E292B2408C6A6003286FC /* PBXTargetDependency */ = {
+		3F8E29692409C331003286FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F8E29052408C6A3003286FC /* Gas-Leakage-Detector */;
-			targetProxy = 3F8E292A2408C6A6003286FC /* PBXContainerItemProxy */;
+			target = 3F8E29432409C32C003286FC /* Gas-Leakage-Detector */;
+			targetProxy = 3F8E29682409C331003286FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F8E29112408C6A3003286FC /* Main.storyboard */ = {
+		3F8E294F2409C32C003286FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F8E29122408C6A3003286FC /* Base */,
+				3F8E29502409C32C003286FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F8E29162408C6A6003286FC /* LaunchScreen.storyboard */ = {
+		3F8E29542409C331003286FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F8E29172408C6A6003286FC /* Base */,
+				3F8E29552409C331003286FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +336,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F8E29302408C6A6003286FC /* Debug */ = {
+		3F8E296E2409C331003286FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		3F8E29312408C6A6003286FC /* Release */ = {
+		3F8E296F2409C331003286FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -441,7 +450,7 @@
 			};
 			name = Release;
 		};
-		3F8E29332408C6A6003286FC /* Debug */ = {
+		3F8E29712409C331003286FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -459,7 +468,7 @@
 			};
 			name = Debug;
 		};
-		3F8E29342408C6A6003286FC /* Release */ = {
+		3F8E29722409C331003286FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -477,7 +486,7 @@
 			};
 			name = Release;
 		};
-		3F8E29362408C6A6003286FC /* Debug */ = {
+		3F8E29742409C331003286FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,7 +508,7 @@
 			};
 			name = Debug;
 		};
-		3F8E29372408C6A6003286FC /* Release */ = {
+		3F8E29752409C331003286FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -521,7 +530,7 @@
 			};
 			name = Release;
 		};
-		3F8E29392408C6A6003286FC /* Debug */ = {
+		3F8E29772409C331003286FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,7 +550,7 @@
 			};
 			name = Debug;
 		};
-		3F8E293A2408C6A6003286FC /* Release */ = {
+		3F8E29782409C331003286FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,43 +573,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F8E29012408C6A3003286FC /* Build configuration list for PBXProject "Gas-Leakage-Detector" */ = {
+		3F8E293F2409C32C003286FC /* Build configuration list for PBXProject "Gas-Leakage-Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8E29302408C6A6003286FC /* Debug */,
-				3F8E29312408C6A6003286FC /* Release */,
+				3F8E296E2409C331003286FC /* Debug */,
+				3F8E296F2409C331003286FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8E29322408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-Detector" */ = {
+		3F8E29702409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8E29332408C6A6003286FC /* Debug */,
-				3F8E29342408C6A6003286FC /* Release */,
+				3F8E29712409C331003286FC /* Debug */,
+				3F8E29722409C331003286FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8E29352408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorTests" */ = {
+		3F8E29732409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8E29362408C6A6003286FC /* Debug */,
-				3F8E29372408C6A6003286FC /* Release */,
+				3F8E29742409C331003286FC /* Debug */,
+				3F8E29752409C331003286FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8E29382408C6A6003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorUITests" */ = {
+		3F8E29762409C331003286FC /* Build configuration list for PBXNativeTarget "Gas-Leakage-DetectorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F8E29392408C6A6003286FC /* Debug */,
-				3F8E293A2408C6A6003286FC /* Release */,
+				3F8E29772409C331003286FC /* Debug */,
+				3F8E29782409C331003286FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F8E28FE2408C6A3003286FC /* Project object */;
+	rootObject = 3F8E293C2409C32C003286FC /* Project object */;
 }
