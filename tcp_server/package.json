@@ -1,0 +1,24 @@
+{
+  "name": "tcp_server",
+  "version": "1.0.0",
+  "description": "A tcp server program that captures data from photon and stores the data in mongo db",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohith-saidugari/RobotSpyCar.git"
+  },
+  "author": "Rohit Saidugari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohith-saidugari/RobotSpyCar/issues"
+  },
+  "homepage": "https://github.com/Rohith-saidugari/RobotSpyCar#readme",
+  "dependencies": {
+    "backendless": "^5.4.4",
+    "moment": "^2.18.1",
+    "mongodb": "^3.3.5"
+  }
+}
