@@ -44,16 +44,16 @@ class LoginViewController: UIViewController {
                 }
             }
             else{
-                let message = "Password Field is Empty"
-                let title = "Please enter your Password"
+                let message = "Empty Password Field"
+                let title = "Enter your Password"
                 let action = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
                 let actions:[UIAlertAction]=[action]
                 self.present(AlertHelper.shared.presentAlert(title:title,message:message,actions:actions), animated: true)
             }
             
         } else {
-            let message = "Email ID is empty"
-            let title = "Please enter your email id"
+            let message = "Empty email ID"
+            let title = "Enter your email id"
             let action = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
             let actions:[UIAlertAction]=[action]
             self.present(AlertHelper.shared.presentAlert(title:title,message:message,actions:actions), animated: true)
