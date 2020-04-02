@@ -26,6 +26,11 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.set(nil,forKey: "AccessToken")
                 UserDefaults.standard.set(true, forKey: "status")
                 UserDefaults.standard.set(nil,forKey: "error_description")
+                
+                //UserDefaults.standard.set(nil,forKey: "AccessToken")
+                //UserDefaults.standard.set(true, forKey: "status")
+                //UserDefaults.standard.set(nil,forKey: "error_description")
+                
                 let bodyData = "client_id=particle&client_secret=particle&grant_type=password&username=\(emailId)&password=\(password)"
                 let result =
                     NetworkHelper.shared.loginRequestBuilder(RequestURL: APIConstants.LoginAPI, BodyData: bodyData, Method: "POST")
