@@ -14,7 +14,7 @@ class DriveCarViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "Drive"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(logout))
-        let centerButton = createButton(size: 50)
+      //  let centerButton = createButton(size: 50)
         
         // Looks like there is some issue with buttons will fix it soon
        /* self.view.addSubview(centerButton)
