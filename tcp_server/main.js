@@ -37,15 +37,15 @@ var savePhoto = function () {
 
 
 	_buffer = [];
-	MongoClient.connect("mongodb+srv://S534735:S534735@booklanderapp-fn9ge.mongodb.net/test?retryWrites=true&w=majority", function (err, db) {
+	MongoClient.connect("mongodb+srv://Admin:Password@particleimages-ue5yv.mongodb.net/test?retryWrites=true&w=majority", function (err, db) {
 
 	if (err) {
 		console.log("Please check you db connection parameters");
 	} else {
 		console.log("Connection success");
-		var data = fs.readFileSync(filename);
+		var data = fs.readFileSync(filename,'base64');
 		var insert_data = {};
-		insert_data.file_data = Binary(data);
+		insert_data.file_data = String(data);
 		var dbo = db.db("appdb");
 		dbo.collection("files").insert(insert_data, function(err, res) {
 			if (err) throw err;
