@@ -160,8 +160,8 @@ void myHandler(const char *event, const char *data)
         }
     }
 
-    Particle.publish("status", "Taking a picture...");
-    Serial.println("Taking a picture...");
+    Particle.publish("status", "Capturing a picture...");
+    Serial.println("Capturing a picture...");
 
 
     //myCAM.OV5640_set_JPEG_size(OV5640_320x240);   //works
@@ -177,13 +177,13 @@ void myHandler(const char *event, const char *data)
 
 
     myCAM.flush_fifo();
-    delay(100);
+    delay(200);
 
     myCAM.clear_fifo_flag();
-    delay(100);
+    delay(200);
 
     myCAM.start_capture();
-    delay(100);
+    delay(200);
 
 
 
@@ -274,7 +274,7 @@ void myHandler(const char *event, const char *data)
         Serial.println(F("End of Photo"));
     }
 
-    Serial.println("sleeping 10 seconds");
+    Serial.println("Sleeping 10 seconds");
     Particle.publish("status", "Sleeping 10 seconds");
     delay(10 * 1000);
 }
