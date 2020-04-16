@@ -177,13 +177,13 @@ void myHandler(const char *event, const char *data)
 
 
     myCAM.flush_fifo();
-    delay(200);
+    delay(100);
 
     myCAM.clear_fifo_flag();
-    delay(200);
+    delay(100);
 
     myCAM.start_capture();
-    delay(200);
+    delay(100);
 
 
 
@@ -193,7 +193,7 @@ void myHandler(const char *event, const char *data)
 
 
 //
-//  wait for the photo to be done
+//  wait for the photo to be completed
 //
     while(!myCAM.get_bit(ARDUCHIP_TRIG , CAP_DONE_MASK)) {
         Particle.process();
@@ -267,7 +267,7 @@ void myHandler(const char *event, const char *data)
             client.write(buffer, tx_buffer_index);
         }
 
-        //Clear the capture done flag
+        //Clearing the capture done flag
         //myCAM.CS_HIGH();
         myCAM.clear_fifo_flag();
 
