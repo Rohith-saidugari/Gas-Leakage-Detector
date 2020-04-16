@@ -70,7 +70,6 @@ void setup()
   //SPI.begin(SPI_MODE_MASTER);
   //SPI.begin(SPI_MODE_SLAVE, SPI_CS);
 
-
   while(1) {
     Particle.publish("status", "checking for camera");
     Serial.println("Checking for camera...");
@@ -92,7 +91,6 @@ void setup()
 
     Particle.publish("status", "Camera found.");
 
-
 while(1){
   //Check if the camera module type is OV5642
   myCAM.rdSensorReg16_8(OV5642_CHIPID_HIGH, &vid);
@@ -109,7 +107,6 @@ while(1){
     break;
   }
 }
-
 
   Serial.println("Camera found, initializing...");
     //myCAM.write_reg(ARDUCHIP_MODE, 0x01);		 	//Switch to CAM
@@ -183,8 +180,6 @@ void myHandler(const char *event, const char *data)
 
     myCAM.start_capture();
     delay(100);
-
-
 
     //myCAM.start_capture();
     unsigned long start_time = millis(),
