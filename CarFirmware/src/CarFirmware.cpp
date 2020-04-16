@@ -58,6 +58,6 @@ void steerLeftHandler(const char *event, const char *data)
 void steerRightHandler(const char *event, const char *data)
 {
   digitalWrite(D3, HIGH);
-  delay(900);
+  delay(1000);
   digitalWrite(D3, LOW);
 }
