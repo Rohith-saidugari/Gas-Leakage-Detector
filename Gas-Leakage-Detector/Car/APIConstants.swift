@@ -10,6 +10,7 @@ import Foundation
 
 struct APIConstants {
   static  var LoginAPI:String = "https://api.particle.io/oauth/token"
+  static  var PublishEventAPI:String = "https://api.particle.io/v1/devices/events"
 }
 
 

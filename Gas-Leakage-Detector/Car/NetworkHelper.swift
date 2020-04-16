@@ -49,6 +49,32 @@ struct NetworkHelper {
     }
     
     
+    func publishEvent(BodyData:String) -> Void{
+        let url = URL(string: APIConstants.PublishEventAPI)
+        let sem = DispatchSemaphore(value: 0)
+        guard let requestUrl = url else { fatalError() }
+        var request = URLRequest(url: requestUrl)
+        request.httpMethod = "POST"
+        let postString = BodyData
+        request.httpBody = postString.data(using: String.Encoding.utf8)
+        print(UserDefaults.standard.object(forKey: "AccessToken")!)
+        request.addValue("Bearer \(UserDefaults.standard.object(forKey: "AccessToken")!)", forHTTPHeaderField: "Authorization")
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            defer { sem.signal() }
+            if let error = error {
+                print("Error took place \(error)")
+            }
+            // Convert HTTP Response Data to a String
+            if let data = data, let dataString = String(data: data, encoding: .utf8) {
+                print("Response data string:\n \(dataString)")
+            }
+        }
+        task.resume()
+        sem.wait(timeout: .distantFuture)
+    }
+    
+    
+    
     
     
     private func handleData(responeData : String )-> Bool{
@@ -72,35 +98,6 @@ struct NetworkHelper {
             print("Failed to load: \(error.localizedDescription)")
             result = false
         }
-        return result
-    }
-    
-    func publishEvent(eventName:String)->Bool{
-        var result:Bool=false
-       
-        let url = URL(string: "api.particle.com/publish")
-        let sem = DispatchSemaphore(value: 0)
-        guard let requestUrl = url else { fatalError() }
-        var request = URLRequest(url: requestUrl)
-       request.httpMethod = "POST"
-        let postString = eventName;
-        request.httpBody = postString.data(using: String.Encoding.utf8);
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            defer { sem.signal() }
-            if let error = error {
-                print("Error took place \(error)")
-                result = false
-                
-            }
-            // Convert HTTP Response Data to a String
-            if let data = data, let dataString = String(data: data, encoding: .utf8) {
-                print("Response data string:\n \(dataString)")
-                result = self.handleData(responeData:dataString)
-            }
-        }
-        task.resume()
-        
-        sem.wait(timeout: .distantFuture)
         return result
     }
     

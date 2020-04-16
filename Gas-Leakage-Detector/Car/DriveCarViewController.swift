@@ -14,7 +14,7 @@ class DriveCarViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.title = "Drive"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(logout))
-      //  let centerButton = createButton(size: 50)
+        //let centerButton = createButton(size: 50)
         
         // Looks like there is some issue with buttons will fix it soon
        /* self.view.addSubview(centerButton)
@@ -33,6 +33,28 @@ class DriveCarViewController: UIViewController {
            vc.modalPresentationStyle = .fullScreen
            self.present(vc, animated: true, completion: nil)
        }
+    
+    @IBAction func driveFront(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=DriveFront")
+    }
+    @IBAction func driveBack(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=DriveBack")
+    }
+    
+    @IBAction func turnLeft(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=TurnLeft")
+    }
+    @IBAction func turnRight(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=TurnRight")
+    }
+    @IBAction func capturePhoto(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=CapturePhoto")
+    }
+    @IBAction func measureGasMetrics(){
+        NetworkHelper.shared.publishEvent(BodyData: "name=MeasureMetrics")
+    }
+    
+    
     
     // Below code is to create circular buttons
     /*

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F61868D244786DF00B69BB2 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61868C244786DF00B69BB2 /* TestViewController.swift */; };
+		3F61868F2447881200B69BB2 /* MyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F61868E2447881200B69BB2 /* MyImageCell.swift */; };
 		3F6F785924355E970088E343 /* MetricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F785824355E970088E343 /* MetricsViewController.swift */; };
 		3FFE3210242D749200831B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE320F242D749200831B66 /* AppDelegate.swift */; };
 		3FFE3212242D749200831B66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE3211242D749200831B66 /* SceneDelegate.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F61868C244786DF00B69BB2 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3F61868E2447881200B69BB2 /* MyImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageCell.swift; sourceTree = "<group>"; };
 		3F6F785824355E970088E343 /* MetricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsViewController.swift; sourceTree = "<group>"; };
 		3FFE320C242D749200831B66 /* Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Car.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE320F242D749200831B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				3FFE3223242D75E900831B66 /* Switcher.swift */,
 				3FFE3225242D75FC00831B66 /* TabBarViewController.swift */,
 				3FFE3215242D749200831B66 /* Main.storyboard */,
+				3F61868E2447881200B69BB2 /* MyImageCell.swift */,
+				3F61868C244786DF00B69BB2 /* TestViewController.swift */,
 				3F6F785824355E970088E343 /* MetricsViewController.swift */,
 				3FFE322B242D983600831B66 /* NetworkHelper.swift */,
 				3FFE3229242D794400831B66 /* ImageViewerViewController.swift */,
@@ -167,10 +173,12 @@
 				3FFE3214242D749200831B66 /* LoginViewController.swift in Sources */,
 				3FFE3210242D749200831B66 /* AppDelegate.swift in Sources */,
 				3FFE322A242D794400831B66 /* ImageViewerViewController.swift in Sources */,
+				3F61868D244786DF00B69BB2 /* TestViewController.swift in Sources */,
 				3FFE3224242D75E900831B66 /* Switcher.swift in Sources */,
 				3FFE322E242D9B9900831B66 /* APIConstants.swift in Sources */,
 				3FFE3226242D75FC00831B66 /* TabBarViewController.swift in Sources */,
 				3FFE3228242D792100831B66 /* DriveCarViewController.swift in Sources */,
+				3F61868F2447881200B69BB2 /* MyImageCell.swift in Sources */,
 				3FFE3232242E936300831B66 /* AlertHelper.swift in Sources */,
 				3FFE3212242D749200831B66 /* SceneDelegate.swift in Sources */,
 			);

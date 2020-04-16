@@ -26,11 +26,6 @@ class LoginViewController: UIViewController {
                 UserDefaults.standard.set(nil,forKey: "AccessToken")
                 UserDefaults.standard.set(true, forKey: "status")
                 UserDefaults.standard.set(nil,forKey: "error_description")
-                
-                //UserDefaults.standard.set(nil,forKey: "AccessToken")
-                //UserDefaults.standard.set(true, forKey: "status")
-                //UserDefaults.standard.set(nil,forKey: "error_description")
-                
                 let bodyData = "client_id=particle&client_secret=particle&grant_type=password&username=\(emailId)&password=\(password)"
                 let result =
                     NetworkHelper.shared.loginRequestBuilder(RequestURL: APIConstants.LoginAPI, BodyData: bodyData, Method: "POST")
@@ -49,16 +44,16 @@ class LoginViewController: UIViewController {
                 }
             }
             else{
-                let message = "Empty Password Field"
-                let title = "Enter your Password"
+                let message = "Password Field is Empty"
+                let title = "Please enter your Password"
                 let action = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
                 let actions:[UIAlertAction]=[action]
                 self.present(AlertHelper.shared.presentAlert(title:title,message:message,actions:actions), animated: true)
             }
             
         } else {
-            let message = "Empty email ID"
-            let title = "Enter your email id"
+            let message = "Email ID is empty"
+            let title = "Please enter your email id"
             let action = UIAlertAction(title: "Dismiss", style: .default, handler: nil)
             let actions:[UIAlertAction]=[action]
             self.present(AlertHelper.shared.presentAlert(title:title,message:message,actions:actions), animated: true)
