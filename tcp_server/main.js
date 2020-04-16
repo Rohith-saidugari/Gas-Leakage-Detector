@@ -73,10 +73,6 @@ var server = net.createServer(function (socket) {
 		var data = socket.read();
 		leakyBufferFn(data);
 
-		// this slows us down
-		//		if (data) {
-		//			console.log("received data: " + data.length + " bytes");
-		//		}
 	});
 });
 //Creates TCP server
