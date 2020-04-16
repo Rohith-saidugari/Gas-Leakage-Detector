@@ -111,7 +111,6 @@ while(1){
   }
 }
 
-
   Serial.println("Camera found, initializing...");
     //myCAM.write_reg(ARDUCHIP_MODE, 0x01);		 	//Switch to CAM
 
@@ -142,7 +141,6 @@ while(1){
 
     // wait a sec`
     delay(1000);
-
 
     client.connect(SERVER_ADDRESS, SERVER_TCP_PORT);
 }
