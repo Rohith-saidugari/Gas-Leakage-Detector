@@ -18,7 +18,7 @@
   "homepage": "https://github.com/Rohith-saidugari/RobotSpyCar#readme",
   "dependencies": {
     "backendless": "^5.4.4",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "mongodb": "^3.3.5"
   }
 }
